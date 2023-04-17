@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.6rem;
+}
+
+header {
+  width: 100%;
+  padding: 5rem;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+
+  background-image:
+    url(images/Left-Graphic.png),
+    url(images/Right-Graphic.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, right top;
+  background-size: 50%, 38%;
+}
+
+.image-dolphin img {
+  position: absolute;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 6.5rem;
+}
+
+nav a {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-decoration: none;
+
+  color: #454545;
+}
+
+div.text-area {
+  width: 44.7rem;
+  margin-left: 20rem;
+  margin-top: 0;
+  /* border: 1px solid red; */
+}
+
+div.text-area h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+
+  background: linear-gradient(180deg, #1B18F9 0%, #1B18F9 46.35%, #E146AD 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+}
+
+div.text-area p {
+  font-family: 'League Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #454545;
+}
+
+div.text-area button#btn-beguin {
+  width: 21.0rem;
+  padding: 1.7rem;
+
+  font-family: 'League Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+  background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%);
+  border: none;
+  border-radius: 18px;
+}
+
+div.text-area button#btn-watch {
+  width: 21.0rem;
+  padding: 1.7rem;
+
+  font-family: 'League Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+  background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%);
+  border: none;
+  border-radius: 18px;
+}
